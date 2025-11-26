@@ -6,148 +6,210 @@
   <title>StitchVault — Privacy Policy</title>
   <meta name="description" content="Privacy Policy for StitchVault — Offline Boutique Manager">
   <style>
-    :root{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;font-size:16px;color:#111}
-    body{max-width:900px;margin:40px auto;padding:24px;background:#f8fafc;border-radius:12px;box-shadow:0 6px 20px rgba(17,24,39,0.06)}
-    header h1{margin:0 0 6px;font-size:1.6rem}
-    header p{margin:0 0 18px;color:#374151}
-    section{background:#fff;padding:20px;border-radius:10px;margin-bottom:16px;box-shadow:0 2px 8px rgba(2,6,23,0.03)}
-    h2{margin-top:0}
-    table{width:100%;border-collapse:collapse;margin-top:12px}
-    th,td{border:1px solid #e6e9ee;padding:10px;text-align:left}
-    th{background:#f1f5f9}
-    ul{margin:8px 0 0 18px}
-    .meta{font-size:0.95rem;color:#6b7280}
-    footer{font-size:0.9rem;color:#6b7280;margin-top:8px}
-    .note{background:#fffbeb;border-left:4px solid #f59e0b;padding:10px;border-radius:6px}
-    .kbd{font-family:monospace;background:#eef2ff;padding:2px 6px;border-radius:4px}
-    @media (max-width:600px){body{margin:16px;padding:16px}}
+    :root {
+      --primary: #2563eb;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+    }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 24px;
+    }
+    header {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+    .date {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      background: #eef2ff;
+      padding: 4px 12px;
+      border-radius: 99px;
+      display: inline-block;
+      font-weight: 500;
+    }
+    section {
+      background: var(--card);
+      padding: 32px;
+      border-radius: 16px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 0;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid #f1f5f9;
+      color: var(--text);
+    }
+    h3 {
+      font-size: 1rem;
+      margin: 24px 0 8px;
+      color: var(--text);
+    }
+    p { margin-bottom: 16px; color: #334155; }
+    ul { margin: 0; padding-left: 20px; color: #334155; }
+    li { margin-bottom: 8px; }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 0.95rem;
+    }
+    th {
+      text-align: left;
+      background: #f8fafc;
+      padding: 12px;
+      border-bottom: 2px solid var(--border);
+      font-weight: 600;
+      color: var(--text);
+    }
+    td {
+      padding: 12px;
+      border-bottom: 1px solid var(--border);
+      color: #334155;
+    }
+    
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8em;
+      font-weight: 600;
+    }
+    .badge-green { background: #dcfce7; color: #166534; }
+    
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+    
+    @media (max-width: 600px) {
+      body { margin: 0; padding: 20px; }
+      section { padding: 20px; }
+      th, td { display: block; width: 100%; box-sizing: border-box; }
+      th { background: none; border-bottom: none; padding-bottom: 0; color: var(--text-muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 12px; }
+      td { padding-top: 4px; border-bottom: 1px solid #f1f5f9; }
+      tr:last-child td { border-bottom: none; }
+    }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Privacy Policy — StitchVault</h1>
-    <p class="meta">Last Updated: <strong>November 25, 2025</strong></p>
+    <h1>Privacy Policy</h1>
+    <p><strong>StitchVault</strong> — Offline Boutique Manager</p>
+    <div class="date">Last Updated: November 26, 2025</div>
   </header>
 
-  <section aria-labelledby="core">
-    <h2 id="core">1. Core Principle: Offline-First, Local-Only Storage</h2>
-    <p>StitchVault is designed as an offline boutique management app. We do not collect, transmit, store, or share any user data on external servers, cloud services, or third-party platforms. All information entered into the App is stored only on your device in a local database.</p>
+  <section>
+    <h2>1. Overview & Core Privacy Promise</h2>
+    <p><strong>StitchVault is a strictly offline application.</strong></p>
+    <p>We do not collect, transmit, store, or share your customers' data, fabric images, or financial records on any external server. The developer of this App has no access to the information you enter.</p>
   </section>
 
-  <section aria-labelledby="local-storage">
-    <h2 id="local-storage">2. Information Stored Locally on Your Device</h2>
-    <p>The App functions as a business management tool and stores data only for your own use. This may include personal information about your customers that you manually enter.</p>
-
-    <h3>Data Stored Locally</h3>
-    <table aria-describedby="data-table">
-      <caption id="data-table" style="caption-side:top;text-align:left;padding-bottom:8px;font-weight:600">Categories of locally stored data</caption>
-      <thead>
-        <tr>
-          <th>Category</th>
-          <th>Type of Data</th>
-          <th>Purpose</th>
-          <th>How It’s Collected</th>
-          <th>Storage Location</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Customer Information</td>
-          <td>Name, phone number, email address, physical address</td>
-          <td>Contacting customers and managing orders</td>
-          <td>Entered by the user</td>
-          <td>Local device database (SQLite/Drift)</td>
-        </tr>
-        <tr>
-          <td>Business Records</td>
-          <td>Fabric inventory (SKU, quantity, price), order details, prices, order status</td>
-          <td>Core boutique management features</td>
-          <td>Entered by the user</td>
-          <td>Local device database</td>
-        </tr>
-        <tr>
-          <td>Images</td>
-          <td>Photos of fabrics and order items</td>
-          <td>Visual inventory management</td>
-          <td>Captured or selected by user</td>
-          <td>Local app folder on the device</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <p class="note" role="note">The App does not automatically collect information. All data is added manually by the user (boutique owner).</p>
-  </section>
-
-  <section aria-labelledby="data-collection">
-    <h2 id="data-collection">3. Data Collection &amp; Sharing (Google Play Data Safety)</h2>
+  <section>
+    <h2>2. Data Handling & Google Play Data Safety</h2>
+    <p>For the purposes of the Google Play Data Safety section, our data practices are classified as follows:</p>
+    
     <table>
       <thead>
         <tr>
-          <th>Category</th>
-          <th>Disclosure</th>
+          <th>Data Type</th>
+          <th>Collection Status</th>
+          <th>Details</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Data Collection</td>
-          <td>No data is collected by the developer.</td>
+          <td><strong>Personal Info</strong><br><small>(Names, Phones, Addresses)</small></td>
+          <td><span class="badge badge-green">Not Collected</span></td>
+          <td>Stored 100% locally on your device via SQLite. Never transmitted off-device.</td>
         </tr>
         <tr>
-          <td>Data Sharing</td>
-          <td>None. Data is not shared with any third parties.</td>
+          <td><strong>Photos & Videos</strong><br><small>(Fabric/Design Images)</small></td>
+          <td><span class="badge badge-green">Not Collected</span></td>
+          <td>Stored in your device's strictly local application sandbox. Never uploaded to a cloud server.</td>
         </tr>
         <tr>
-          <td>Data Transmission</td>
-          <td>The App does not send data over the internet.</td>
+          <td><strong>Financial Info</strong><br><small>(Order Prices, Payments)</small></td>
+          <td><span class="badge badge-green">Not Collected</span></td>
+          <td>Processed locally to calculate totals. No payment gateway is integrated.</td>
         </tr>
         <tr>
-          <td>Data Processing</td>
-          <td>All calculations and processing occur locally on the device (e.g., totals, statistics, sorting).</td>
+          <td><strong>Files & Docs</strong><br><small>(Backups/PDFs)</small></td>
+          <td><span class="badge badge-green">Not Collected</span></td>
+          <td>The App does not create or export files to external shared storage.</td>
         </tr>
       </tbody>
     </table>
   </section>
 
-  <section aria-labelledby="permissions">
-    <h2 id="permissions">4. Permissions Used by the App</h2>
-    <h3>Camera &amp; Photos/Media</h3>
-    <p>Used only to allow the user to take or select images of fabrics or products. Images remain stored locally on the device and are never uploaded anywhere.</p>
+  <section>
+    <h2>3. App Permissions Explained</h2>
+    <p>We request minimal permissions solely to provide core app functionality. You can revoke these permissions in your device settings at any time.</p>
+    
+    <h3>📸 Camera & Gallery</h3>
+    <p><strong>Purpose:</strong> To allow you to take photos of fabrics or select existing images to attach to orders.</p>
+    <p><strong>Storage:</strong> Images are saved locally within the app's private storage area. The App does not have a "cloud gallery" feature.</p>
 
-    <h3>Manage External Storage (Android)</h3>
-    <p>Used only when the user chooses to export a backup (database + images) to a folder on their device. The App does not access unrelated files. The App does not upload backups to any cloud or server.</p>
+    <h3>🚫 No External File Access</h3>
+    <p><strong>Strictly Local:</strong> The App <strong>does not</strong> request or use "Manage External Storage" permissions. It does not read, write, or modify files in your device's shared directories (e.g., Downloads, Documents). All data remains isolated within the app's private sandbox.</p>
   </section>
 
-  <section aria-labelledby="security">
-    <h2 id="security">5. Data Security &amp; User Control</h2>
-    <h3>Security</h3>
-    <p>All data is protected by the device’s operating system. The developer does not have access to your data.</p>
-
-    <h3>Full User Control</h3>
-    <p>You may delete your data at any time using the in-app controls or by uninstalling the App:</p>
+  <section>
+    <h2>4. Data Deletion & Retention</h2>
+    <p>Since we do not manage user accounts or cloud servers, <strong>you have complete control over your data retention</strong>.</p>
+    
     <ul>
-      <li>“Delete Customer”, “Delete Fabric,” or “Delete Order” buttons inside the App.</li>
-      <li>“Clear All App Data” in App Settings (resets the local database).</li>
-      <li>Uninstalling the App (removes database and images permanently).</li>
+      <li><strong>Delete Single Items:</strong> You can delete individual customers, orders, or fabrics within the app interface.</li>
+      <li><strong>Clear All Data:</strong> The "Settings > Danger Zone > Clear All App Data" option instantly wipes the local database. This action is permanent.</li>
+      <li><strong>Uninstalling:</strong> Uninstalling the app from your device will permanently remove all locally stored data, including images and database records, as they are stored in the app-specific sandbox.</li>
     </ul>
   </section>
 
-  <section aria-labelledby="children">
-    <h2 id="children">6. Children’s Privacy</h2>
-    <p>This App is intended for adult business owners and is not designed for children under 13. We do not knowingly collect any data from children.</p>
+  <section>
+    <h2>5. Third-Party Services</h2>
+    <p>The App uses the following standard libraries which may run basic diagnostic code, but do not track user behavior for advertising purposes:</p>
+    <ul>
+      <li><strong>Flutter Framework:</strong> For building the user interface.</li>
+      <li><strong>package_info_plus:</strong> Used solely to display the app version number in the Settings screen.</li>
+    </ul>
   </section>
 
-  <section aria-labelledby="updates">
-    <h2 id="updates">7. Policy Updates</h2>
-    <p>This Privacy Policy may be updated occasionally. Any changes will be posted inside the App or on the official listing before they take effect.</p>
+  <section>
+    <h2>6. Children’s Privacy</h2>
+    <p>StitchVault is a business tool intended for use by adults. We do not knowingly collect personal information from children under the age of 13.</p>
   </section>
 
-  <section aria-labelledby="contact">
-    <h2 id="contact">8. Contact Us</h2>
-    <p>For questions or concerns regarding this Privacy Policy, please contact us at the developer email address provided on the Google Play Store listing.</p>
+  <section>
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or need help managing your local data, please contact the developer:</p>
+    <p><strong>Email:</strong> [INSERT YOUR EMAIL HERE]</p>
   </section>
 
   <footer>
-    <p>© StitchVault — Offline Boutique Manager</p>
+    <p>&copy; 2025 StitchVault. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
